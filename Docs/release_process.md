@@ -8,3 +8,6 @@ The three types of Arm Mbed OS releases are major releases, feature releases and
 
 ### The release process
 
+Every release goes through a rigorous review and testing process. Two weeks before each release, we implement a code freeze. No new code can go into the release branch after that time. Any new patches must go into a later release. During code freeze, we apply [our testing tools](testing.md) to the release branch. These tests include nightly runs through our continuous integration (CI) processes, as well as out-of-box QA.
+
+After all tests return no errors, we release the latest updates. A release note accompanies each release. The release notes for major and feature releases are longer and give an overview of the new features. The release notes for the patch releases include only a list of changes and known issues, if applicable.
