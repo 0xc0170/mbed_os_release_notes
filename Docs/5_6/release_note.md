@@ -34,7 +34,7 @@ In the Mbed OS 5.6.0 release, we have also added several new drivers and platfor
 
 **NonCopyable Class**: NonCopyable class allows the creation of classes whose objects cannot be constructed using a copy constructor or assigned to another. It forces the classes copy constructors to be private. More information is available in [the API](https://os.mbed.com/docs/v5.6/reference/noncopyable.html).
 
-Apart from the features described above, Mbed OS 5.6.0 also includes several new features, improvements in current APIs and HAL specification to ensure cross platform support of all APIs. You can find all the changes on Github. 
+Apart from the features described above, Mbed OS 5.6.0 also includes several new features, improvements in current APIs and HAL specification to ensure cross platform support of all APIs. You can find all the changes on GitHub. 
 
 #### Connectivity 
 
