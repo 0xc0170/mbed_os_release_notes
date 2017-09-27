@@ -1,5 +1,5 @@
-## Mbed OS Known Issues
-### About this document
+### Mbed OS Known Issues
+#### About this document
 
 This is the list of known issues for the [5.6.0 release of Mbed OS and related tools](https://os.mbed.com/docs/v5.6/releases/mbed-os-56-releases.html/).
 
@@ -7,10 +7,10 @@ We publish Mbed OS as a collection of modules on GitHub. Issues are raised in th
 
 For more information about an issue, contact us on the [forums](http://os.mbed.org/forums).
 
-### Additional information
+#### Additional information
 For further information regarding this release, please refer to the release notes referenced above.
 
-### Known issues
+#### Known issues
 
 **Handshake Messages are not fragmented as per MaxFragmentLength Extension Negotiation**
 
@@ -117,11 +117,11 @@ Priority: Major
 - Reported Issue: https://github.com/ARMmbed/mbed-os-example-mesh-minimal/issues/130
 - Priority: Major
 
-## Ports for Upcoming Targets
+### Ports for Upcoming Targets
 
 [4631](https://github.com/ARMmbed/mbed-os/pull/4631) Add new target NUMAKER_PFM_NANO130
 
-## Fixes and changes
+### Fixes and changes
 
 This is the full list of changes available in this release.
 
@@ -209,6 +209,6 @@ This is the full list of changes available in this release.
 
 The upgrade should be generally transparent to developers using the Mbed OS RTOS APIs, but please report in the [forums](https://os.mbed.com/forum/bugs-suggestions/) or contact us at [support@mbed.com](mailto:support@mbed.com) if you have any issues in this area. 
 
-## Using the release 
+### Using the release 
 
 You can fetch the latest version of the Mbed OS 5.6 release from the `mbed-os` GitHub repository using [this branch](https://github.com/ARMmbed/mbed-os/releases/tag/mbed-os-5.6.0). 
