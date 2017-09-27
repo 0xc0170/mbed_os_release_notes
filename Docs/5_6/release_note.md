@@ -14,7 +14,7 @@ Power consumption is one of the most important design requirements for IoT devic
 
 **Support Tickless Operation**: In tickless operation, you don’t have to make a tradeoff between high-frequency timing interval, which consumes more power, and low frequency timing interval, which results in suboptimal time keeping, because the scheduler schedules the next timer tick in response to the next event rather than a fixed timer tick.
 
-**Integration with Mbed OS**: The Tickless RTOS Scheduler is integrated in the native OS and based on the low power ticker. It is currently implemented for two boards, the [Nordic nRF51822](https://os.mbed.com/platforms/Nordic-nRF51822/) and [Nordic nRF52-DK](https://os.mbed.com/platforms/Nordic-nRF52-DK/). The Tickless RTOS Scheduler is already integrated [in the Ticker API](https://os.mbed.com/docs/v5.6/reference/ticker.html). The specifications are released to help other boards support the implementation of the low power timer and Tickless scheduler.
+**Integration with Mbed OS**: The Tickless RTOS Scheduler is integrated in the native OS and based on the low power ticker. The Tickless RTOS Scheduler is already integrated [in the Ticker API](https://os.mbed.com/docs/v5.6/reference/ticker.html). The specifications are released to help other boards support the implementation of the low power timer and Tickless scheduler. We are working with Mbed silicon partners to enable support for the Tickless Scheduler on all Mbed Enabled boards.
 
 ##### Support for Arm Cortex-M23 and Cortex-M33 Devices 
 
