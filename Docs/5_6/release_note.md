@@ -2,9 +2,9 @@
 
 #### About this release
 
-The Arm Mbed OS 5.6.0 release helps to further simplify the internet of things (IoT) and embedded product development with the addition of several new features, such as tickless RTOS scheduler support to enable long periods of low-power sleep and IPv6 support to cellular stack to provide enhanced web connectivity. The release also adds several new drivers and platform APIs, support for IAR Embedded Workbench v8.1 and hardware security enhancements. In addition, this release contains many minor fixes and enhancements and brings support for 93 target development boards. In the release note below, we summarize some of the key updates to Mbed OS as a part of Mbed OS 5.6.0 release.
+The Arm Mbed OS 5.6.0 release helps to further simplify the internet of things (IoT) and embedded product development with the addition of several new features, such as tickless RTOS scheduler support to enable long periods of low-power sleep and IPv6 support to cellular stack to provide enhanced web connectivity. The release also adds several new drivers and platform APIs, support for IAR Embedded Workbench v8.1 and hardware security enhancements. In addition, this release contains many minor fixes and enhancements and brings support for 93 target development boards. In the release note below, we summarize some of the key updates to Mbed OS as a part of the Mbed OS 5.6.0 release.
 
-One additional change you may have noticed is developer.mbed.org is now [os.mbed.com](https://os.mbed.com). We have updated our URL for consistency across the website. The community should experience no significant changes or issues due to this change, as all redirects are in place. 
+One additional change you may have noticed is developer.mbed.org is now [os.mbed.com](https://os.mbed.com). We have updated our URL for consistency across the website. The community should experience no significant changes or issues due to this change because all redirects are in place. 
 
 #### Core OS
 
@@ -12,7 +12,7 @@ One additional change you may have noticed is developer.mbed.org is now [os.mbed
 
 Power consumption is one of the most important design requirements for IoT devices. Meeting the power budget is becoming very challenging as the systems today include more sensors, faster responses and more connectivity. Mbed OS introduces the Tickless RTOS Scheduler to help achieve the design of low power systems.
 
-**Support Tickless Operation**: In tickless operation, you don’t have to make a tradeoff between high-frequency timing interval, which consumes more power, and low frequency timing interval, which results in suboptimal time keeping, because the scheduler schedules the next timer tick in response to the next event rather than a fixed timer tick.
+**Support Tickless Operation**: In tickless operation, you don’t have to make a tradeoff between high-frequency timing interval, which consumes more power, and low-frequency timing interval, which results in suboptimal time keeping, because the scheduler schedules the next timer tick in response to the next event rather than a fixed timer tick.
 
 **Integration with Mbed OS**: The Tickless RTOS Scheduler is integrated in the native OS and based on the low power ticker. The Tickless RTOS Scheduler is already integrated [in the Ticker API](https://os.mbed.com/docs/v5.6/reference/ticker.html). The specifications are released to help other boards support the implementation of the low power timer and Tickless scheduler. We are working with Mbed silicon partners to enable support for the Tickless Scheduler on all Mbed Enabled boards.
 
@@ -20,7 +20,7 @@ Power consumption is one of the most important design requirements for IoT devic
 
 Connected devices are growing at a fast pace, and according to [Gartner](http://www.gartner.com/newsroom/id/3598917), there will be more than 20 billion connected devices by 2020. As the number of IoT devices grows, the devices are becoming an increasingly attractive target for cybercriminals. Security is becoming one the most important product requirements for IoT devices. Arm has announced Arm Cortex-M23 and Cortex-M33 processor architecture, which includes TrustZone for Armv8-M and provides hardware-enforced isolation between trusted and untrusted resources while maintaining the efficient exception handling and determinism that have been the hallmark of all Cortex-M processors. 
 
-Mbed OS 5.6.0 release provides initial support for Arm [Cortex-M23](https://developer.arm.com/products/processors/cortex-m/cortex-m23) and [Cortex-M33](https://developer.arm.com/products/processors/cortex-m/cortex-m33) based devices. This release includes support for RTX and tools for GCC only. This release is an instrumental step in supporting upcoming Arm Cortex-M23 and Cortex-M33 MCUs. You would benefit from support for Arm Cortex-M23 and Cortex-M33 as the new development boards including those processors start to come out. 
+Mbed OS 5.6.0 release provides initial support for Arm [Cortex-M23](https://developer.arm.com/products/processors/cortex-m/cortex-m23) and [Cortex-M33](https://developer.arm.com/products/processors/cortex-m/cortex-m33) based devices. This release includes support for RTX and tools for GCC only. This release is an instrumental step in supporting upcoming Arm Cortex-M23 and Cortex-M33 MCUs. You will benefit from support for Arm Cortex-M23 and Cortex-M33 as the new development boards including those processors start to come out. 
 
 ##### New Drivers and Platform APIs 
 
@@ -40,7 +40,7 @@ Apart from the features described above, Mbed OS 5.6.0 also includes several new
 
 ##### Cellular stack now supports IPv6 along with previous IPv4
 
-Cellular connectivity is widely used for connecting IoT devices. It is more prominent in the use cases which are designed for mobility, such as smart cars, and devices operating in remote areas, such as oil fields. According to [Ericsson](https://www.ericsson.com/res/docs/2016/ericsson-mobility-report-2016.pdf), 10% of all IoT devices by 2021 will be connected by cellular connectivity.  
+Cellular connectivity is widely used for connecting IoT devices. It is prominent in mobility, such as smart cars, and devices operating in remote areas, such as oil fields. According to [Ericsson](https://www.ericsson.com/res/docs/2016/ericsson-mobility-report-2016.pdf), 10% of all IoT devices by 2021 will be connected by cellular connectivity.  
 
 Mbed OS already includes the cellular point to point stack with IPv4 connectivity, and in Mbed 5.6.0, we are releasing cellular stack supporting IPv6. IPv6 is being widely adopted because it allows almost unlimited (3.4×1038) addresses, and IPv4 only allows up to 4.3 billion addresses. More information is available in [the cellular documentation](https://os.mbed.com/docs/v5.6/reference/cellular-api.html). 
 
