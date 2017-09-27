@@ -1,4 +1,4 @@
-### mbed OS 5.6.0 release
+### Mbed OS 5.6.0 release
 
 #### About this release
 
