@@ -4,7 +4,7 @@
 
 The Arm Mbed OS 5.6.0 release helps to further simplify the internet of things (IoT) and embedded product development with the addition of several new features, such as tickless RTOS scheduler support to enable long periods of low-power sleep and IPv6 support to cellular stack to provide enhanced web connectivity. The release also adds several new drivers and platform APIs, support for IAR Embedded Workbench v8.1 and hardware security enhancements. In addition, this release contains many minor fixes and enhancements and brings support for 93 target development boards. In the release note below, we summarize some of the key updates to Mbed OS as a part of Mbed OS 5.6.0 release.
 
-One additional change you may have noticed is developer.mbed.org is now os.mbed.com. We have updated our URL for consistency across the website. The community should experience no significant changes or issues due to this change, as all redirects are in place. 
+One additional change you may have noticed is developer.mbed.org is now [os.mbed.com](https://os.mbed.com). We have updated our URL for consistency across the website. The community should experience no significant changes or issues due to this change, as all redirects are in place. 
 
 #### Core OS
 
