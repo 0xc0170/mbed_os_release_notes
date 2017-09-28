@@ -8,7 +8,7 @@ Patch releases occur every two weeks. They include bug fixes, new target support
 
 ### The release process
 
-Every release goes through a rigorous review and testing process. We stage changes to the `release-candidate` branch in the `mbed-os` repository. Two weeks before each release, we implement a code freeze. No new code can go into the release branch after that time. Any new patches must go into a later release. During code freeze, we apply [our testing tools](testing.md) to the release branch. These tests include nightly runs through our continuous integration (CI) processes, as well as out-of-box QA. We also put our examples through this testing process.
+Every release goes through a rigorous review and testing process. We stage changes to the `release-candidate` branch in the `mbed-os` repository. Two weeks before each release, we implement a code freeze. No new code can go into the release branch after that time. Any new patches must go into a later release. During code freeze, we apply [our testing tools](/docs/v5.6/tools/tools-testing.html) to the release branch. These tests include nightly runs through our continuous integration (CI) processes, as well as out-of-box QA. We also put our examples through this testing process.
 
 Every release goes through a rigorous review and testing process. We stage changes to the `release-candidate` branch in the `mbed-os` repository. 
 
