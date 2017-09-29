@@ -40,7 +40,7 @@ Apart from the features described above, Mbed OS 5.6.0 also includes several new
 
 Cellular connectivity is widely used for connecting IoT devices. It is prominent in mobility, such as smart cars, and devices operating in remote areas, such as oil fields. According to [Ericsson](https://www.ericsson.com/res/docs/2016/ericsson-mobility-report-2016.pdf), 10% of all IoT devices by 2021 will be connected by cellular connectivity.  
 
-Mbed OS already includes the cellular point to point stack with IPv4 connectivity, and in Mbed 5.6.0, we are releasing cellular stack supporting IPv6. IPv6 is being widely adopted because it allows almost unlimited (3.4×1038) addresses, and IPv4 only allows up to 4.3 billion addresses. More information is available in [the cellular documentation](https://os.mbed.com/docs/v5.6/reference/cellular-api.html). 
+Mbed OS already includes the cellular point to point stack with IPv4 connectivity, and in Mbed 5.6.0, we are releasing cellular stack supporting IPv6. IPv6 is being widely adopted because it allows almost unlimited (3.4*10^38) addresses, and IPv4 only allows up to 4.3 billion addresses. More information is available in [the cellular documentation](https://os.mbed.com/docs/v5.6/reference/cellular-api.html). 
 
 ### Security 
 
