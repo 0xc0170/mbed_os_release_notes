@@ -2,7 +2,7 @@
 
 The three types of Arm Mbed OS releases are major, feature and patch. Major releases happen infrequently and indicate a change in the structure of the OS. In major releases, the first number after "Mbed OS" changes. For example, moving to Arm Mbed OS 5.0 was a major release. 
 
-Feature releases occur once a quarter. As their name suggests, feature releases introduce new features to the code base. They can also contain new functionality, refactors, deprecated functionality (there should be a new alternative functionality provided). Unlike major releases, feature releases are backward compatible. The second digit in the release number indicates the feature release. For example, Mbed OS 5.1.0 indicates major version 5, feature version 1. 
+Feature releases occur once a quarter. As their name suggests, feature releases introduce new features to the code base. They can also contain new functionality, refactors, deprecated functionality (there should be a new alternative functionality provided), configuration changes. Unlike major releases, feature releases are backward compatible. The second digit in the release number indicates the feature release. For example, Mbed OS 5.1.0 indicates major version 5, feature version 1. 
 
 Patch releases occur every two weeks. They include bug fixes, new target support and improvements to existing functionality. They are also backward compatible. The last digit in the release number indicates the patch release. In Mbed OS 5.2.3, `3` shows the patch release is the third release in Mbed 5.2.
 
