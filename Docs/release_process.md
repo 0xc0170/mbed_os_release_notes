@@ -1,6 +1,10 @@
 ## How We Release Arm Mbed OS
 
-The three types of Arm Mbed OS releases are major, feature and patch. Major releases happen infrequently and indicate a change in the structure of the OS. In major releases, the first number after "Mbed OS" changes. For example, moving to Arm Mbed OS 5.0 was a major release. 
+The three types of Arm Mbed OS releases are major, feature and patch. 
+
+### Major release
+
+Major releases happen infrequently and indicate a change in the structure of the OS. In major releases, the first number after "Mbed OS" changes. For example, moving to Arm Mbed OS 5.0 was a major release. 
 
 ### Feature release
 
