@@ -2,9 +2,28 @@
 
 The three types of Arm Mbed OS releases are major, feature and patch. Major releases happen infrequently and indicate a change in the structure of the OS. In major releases, the first number after "Mbed OS" changes. For example, moving to Arm Mbed OS 5.0 was a major release. 
 
-Feature releases occur once a quarter. As their name suggests, feature releases introduce new features to the code base. They can also contain new functionality, refactors, it can deprecate functionality (there should be a new alternative functionality provided), configuration changes. Unlike major releases, feature releases are backward compatible. The second digit in the release number indicates the feature release. For example, Mbed OS 5.1.0 indicates major version 5, feature version 1. 
+### Feature release
 
-Patch releases occur every two weeks. They include bug fixes, new target support and improvements to existing functionality. They are also backward compatible. The last digit in the release number indicates the patch release. In Mbed OS 5.2.3, `3` shows the patch release is the third release in Mbed 5.2.
+Feature releases occur once a quarter. As their name suggests, feature releases introduce new features to the code base. Unlike major releases, feature releases are backward compatible. The second digit in the release number indicates the feature release. For example, Mbed OS 5.1.0 indicates major version 5, feature version 1. 
+
+It can include:
+
+- new Mbed OS features
+- new functionality (adding functions, methods, classes)
+- bigger refactors
+- it can deprecate functionality (there should be a new alternative functionality provided)
+- configuration changes
+
+#### Patch release
+
+Patch releases occur every two weeks. They are also backward compatible. The last digit in the release number indicates the patch release. In Mbed OS 5.2.3, `3` shows the patch release is the third release in Mbed 5.2.
+
+It can include:
+
+- bug fixes
+- improvements to existing functionality (targets driver updates, implementation specific improvements that do no change code flow or behavior)
+- new target support
+- new tests
 
 ### The release process
 
