@@ -8,7 +8,7 @@ Major releases happen infrequently and indicate a change in the structure of the
 
 ### Feature release
 
-Feature releases occur once a quarter. As their name suggests, feature releases introduce new features to the code base. Unlike major releases, feature releases are backward compatible. The second digit in the release number indicates the feature release. For example, Mbed OS 5.1.0 indicates major version 5, feature version 1. 
+Feature releases occur once a quarter. As their name suggests, feature releases introduce new features to the code base. Unlike major releases, feature releases are backward compatible (source compatible). The second digit in the release number indicates the feature release. For example, Mbed OS 5.1.0 indicates major version 5, feature version 1. 
 
 It can include:
 
@@ -17,10 +17,11 @@ It can include:
 - bigger refactors
 - it can deprecate functionality (there should be a new alternative functionality provided)
 - configuration changes
+- binary incompatible changes
 
 #### Patch release
 
-Patch releases occur every two weeks. They are also backward compatible. The last digit in the release number indicates the patch release. In Mbed OS 5.2.3, `3` shows the patch release is the third release in Mbed 5.2.
+Patch releases occur every two weeks. They are also backward compatible (source and binary compatible). The last digit in the release number indicates the patch release. In Mbed OS 5.2.3, `3` shows the patch release is the third release in Mbed 5.2.
 
 It can include:
 
