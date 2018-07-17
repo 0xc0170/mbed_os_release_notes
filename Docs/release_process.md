@@ -21,7 +21,7 @@ It can include:
 
 #### Patch release
 
-Patch releases occur every two weeks. They are also backward compatible (source and binary compatible). The last digit in the release number indicates the patch release. In Mbed OS 5.2.3, `3` shows the patch release is the third release in Mbed 5.2.
+Patch releases occur every two weeks. They are also backward compatible (source compatible). The last digit in the release number indicates the patch release. In Mbed OS 5.2.3, `3` shows the patch release is the third release in Mbed 5.2.
 
 It can include:
 
@@ -29,6 +29,7 @@ It can include:
 - improvements to existing functionality (targets driver updates, implementation specific improvements that do no change code flow or behavior)
 - new target support
 - new tests
+- binary incompatible changes
 
 ### The release process
 
