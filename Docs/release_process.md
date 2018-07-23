@@ -1,6 +1,8 @@
 ## How We Release Arm Mbed OS
 
-The three types of Arm Mbed OS releases are major, feature and patch. 
+The three types of Arm Mbed OS releases are major, feature and patch.
+
+Any release can break binary compatibility.
 
 ### Major release
 
@@ -22,7 +24,6 @@ It can include:
 - bigger refactors
 - it can deprecate functionality (there should be a new alternative functionality provided)
 - configuration changes
-- binary incompatible changes
 
 #### Patch release
 
@@ -34,7 +35,6 @@ It can include:
 - improvements to existing functionality (targets driver updates, implementation specific improvements that do no change code flow or behavior)
 - new target support
 - new tests
-- binary incompatible changes
 
 ### The release process
 
